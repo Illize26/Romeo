@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <video id="video" loop playsinline>
-        <source src="Romeo.mp4" type="video/mp4">
-    </video>
+    <div class="video-background">
+        <iframe id="video" 
+                src="https://www.youtube.com/embed/M-98KChgMyU?autoplay=1&mute=1&loop=1&playlist=M-98KChgMyU&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+        </iframe>
+    </div>
     
     <div class="content">
         <div class="decoration-top">✦</div>
@@ -26,9 +31,6 @@
             <span>🐾</span>
         </div>
     </div>
-    
-    
-    <button id="playBtn" class="play-btn">▶ Reproducir</button>
     
     <script src="bunny-animation.js"></script>
 </body>
